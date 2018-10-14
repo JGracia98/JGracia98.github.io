@@ -1,0 +1,108 @@
+html {
+  font-size: 24px;
+  font-family: Helvetica,sans-serif,;
+}
+
+body {
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1509515837298-2c67a3933321?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3888a76f3e9d5a3a07dcd1790232ecd9&auto=format&fit=crop&w=934&q=80");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  padding: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-style: italic;
+  color: white;
+  padding: 0.5rem;
+}
+
+footer {
+  font-size: 24px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  border-top: 2px solid white;
+  margin-top: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar2 {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+}
+
+.navbar2 > a:hover {
+  background-color: teal;
+}
+
+.instagram {
+  margin-top: 50px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  border: 10px solid black;
+  border-radius: 1em;
+  width: 50%;
+  margin-top: -14%;
+}
+
+p {
+  color: #ccc;
+}
+
+.one {
+  background-color: #30747bc7;
+    margin-top: 0%;
+    text-align: center;
+    margin-left: 24%;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.two {
+  background-color: white;
+  border: 10px solid black;
+  color: black;
+  padding-left: 0.8rem;
+  position: relative;
+  right: -1000px;
+  bottom: -225px;
+  width: 25%;
+}
+
+.three {
+  background-color: white;
+  border: 10px solid black;
+  color: black;
+  position: relative;
+  right: -1000px;
+  bottom: -625px;
+  width: 25%;
+  padding-left: 0.8rem;
+}
